@@ -5,8 +5,7 @@ metadata:
   name: superset
 spec:
   image:
-    productVersion: 1.5.3
-    stackableVersion: "23.4"
+    custom: apache/superset:1.5.3
   clusterConfig:
     listenerClass: external-unstable
   credentialsSecret: superset-credentials
