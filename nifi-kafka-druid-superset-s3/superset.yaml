@@ -7,7 +7,7 @@ spec:
   image:
     productVersion: 1.5.3
     stackableVersion: "23.4"
-    custom: apache/superset:1.5.3
+    custom: dervoeti/superset:1.5.3-stackable0.0.0-dev
   clusterConfig:
     listenerClass: external-unstable
   credentialsSecret: superset-credentials
